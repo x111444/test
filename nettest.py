@@ -4,7 +4,7 @@ import random
 import json
 
 class MyTCPHandler(socketserver.BaseRequestHandler):
-    client_data = {"order":None} ##dict
+    #####client_data = {"order":None} ##dict
     server_data ={"ETH":None,"BTC":None,"SAND":None,"MANA":None} ##dict
  
 
